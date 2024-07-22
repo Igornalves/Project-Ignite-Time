@@ -36,5 +36,11 @@ npx eslint src --ext .ts,.tsx --fix
 ```javascript
 npm i react-router-dom
 ```
+```javascript
+npm i @hookform/resolvers
+```
+```javascript
+npm i zod 
+```
 
 

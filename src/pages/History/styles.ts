@@ -55,9 +55,9 @@ export const HistoryList = styled.div`
 
 const STATUS_COLOR = {
     yellow: 'yellow-500',
-    red: 'green-500',
-    green: 'red-500',
-}as const 
+    red: 'red-500',
+    green: 'green-500',
+} as const 
 
 interface StatusProps {
     stautsColor: 'yellow' | 'red' | 'green'
