@@ -1,11 +1,7 @@
-import { 
-  HistoryConteiner,
-  HistoryList,
-  Status
-} from "./styles"
+import { HistoryConteiner, HistoryList, Status } from './styles'
 
 export default function History() {
-  return ( 
+  return (
     <HistoryConteiner>
       <h1>Meu histórico</h1>
 
@@ -24,41 +20,53 @@ export default function History() {
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <td><Status stautsColor="green">Concluído</Status></td>
+              <td>
+                <Status stautsColor="green">Concluído</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <td><Status stautsColor="yellow">Andamento</Status></td>
+              <td>
+                <Status stautsColor="yellow">Andamento</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <td><Status stautsColor="red">Interrompido</Status></td>
+              <td>
+                <Status stautsColor="red">Interrompido</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <td><Status stautsColor="green">Concluído</Status></td>
+              <td>
+                <Status stautsColor="green">Concluído</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <td><Status stautsColor="yellow">Andamento</Status></td>
+              <td>
+                <Status stautsColor="yellow">Andamento</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <td><Status stautsColor="red">Interrompido</Status></td>
+              <td>
+                <Status stautsColor="red">Interrompido</Status>
+              </td>
             </tr>
           </tbody>
         </table>
       </HistoryList>
     </HistoryConteiner>
-  );
+  )
 }

@@ -1,5 +1,7 @@
 # Projeto do Ignite Para Aprendizado No React.js 
 
+Projeto pessoal de criacao de um usando o desing do Figma community com o principal objeto de implementar um site na pratica sendo um projeto real para colocar como uma das minhas habilidades tecnicas.
+
 ### comandos para usar no Terminal 
 
 ```javascript
